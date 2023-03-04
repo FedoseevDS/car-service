@@ -1,0 +1,68 @@
+.mainWrapper {
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: space-between;
+
+  & > div:nth-child(1) {
+    width: 60vw;
+    height: 60vh;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: rgb(124, 140, 141, 0.5);
+  }
+}
+
+.mainRightPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+
+  & > div {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: rgb(124, 140, 141, 0.5);
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.mainDownPanel {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  & > div {
+    font-size: 28px;
+    font-weight: 600;
+    background-color: rgb(124, 140, 141, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    width: 400px;
+    text-align: center;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.mainFooter {
+  margin-top: 20px;
+  height: 100px;
+  background-color: rgb(124, 140, 141, 0.5);
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}

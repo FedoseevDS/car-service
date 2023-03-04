@@ -1,0 +1,32 @@
+.headerWrapper {
+  height: 80px;
+  background-color: rgb(124, 140, 141, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.headerLogo {
+  display: flex;
+  align-items: center;
+
+  & > img {
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+  }
+}
+
+.headerSideBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  width: 80%;
+  font-size: 32px;
+  font-weight: 600;
+  
+  & > div:hover {
+    cursor: pointer;
+    color: red;
+  }
+}
